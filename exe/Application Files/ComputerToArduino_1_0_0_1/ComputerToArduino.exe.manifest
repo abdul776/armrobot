@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ComputerToArduino.exe" version="1.0.0.1" publicKeyToken="537742bfb79a91a5" language="en" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ComputerToArduino" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ComputerToArduino.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ComputerToArduino.exe" size="1108416">
+      <assemblyIdentity name="ComputerToArduino" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YpUL6a7ZqU1Qu9gJO4j6G0nMSL8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=DESKTOP-0E13ANS\hamid" issuerKeyHash="2668145447d52e3d877ccda9bf111b8c00918005" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZnpVmoF0F/8Jw7VBUYixEaAXwYg=</DigestValue></Reference></SignedInfo><SignatureValue>I38kNOMabg714nymyl0dHze053W3MHHNQImscES+M6ogaPHnwGMEUuwgHsEcMJVmYFvh4ORfyByGLGgn7+Iu+htU6rgrduRBXf7fm34/qWNF/2DrGWsSPIUipwv3l6E4O9XePUmPwvCj0ejIYbekeBxDUIY8zqHqDoWa0C+TOmM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x0lWUTU4WTAHMi0reYk4nPj6DnWA3PJ0ZXOvezyiGMwOiHUjSTRkCppYava0B/ksAx3o2Bj1QycYoQY+NkOYkBrtmU3b4lcmLKO3p2YVjEtJuJSdSeO/uF6lril1Pcrxvl6AC4aqiVjTGeOJRHsF402PnSJlNEzV3CErDphaNkU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="88c117a011b1885141b5c309ff1774819a557a66" Description="" Url=""><as:assemblyIdentity name="ComputerToArduino.exe" version="1.0.0.1" publicKeyToken="537742bfb79a91a5" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-0E13ANS\hamid</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>xmHLmiX12rkHJ6LTRIApc13eX6g=</DigestValue></Reference></SignedInfo><SignatureValue>jSNqdlsBgmS8hBlX8vLl0ypUM+Sbgwy0Nzx0cvBJVDnwLO1hxkwc80KlAuCVknP+wLwSbsZw2C4WC4CTLkqcdBEkTg/PoAbreStH4Pz4vXIsHnWBtlowzLDzvva4mlALDI1eWa9pFUCRbFuDR62epyXHhwxBN445rnj85ZUiEAg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x0lWUTU4WTAHMi0reYk4nPj6DnWA3PJ0ZXOvezyiGMwOiHUjSTRkCppYava0B/ksAx3o2Bj1QycYoQY+NkOYkBrtmU3b4lcmLKO3p2YVjEtJuJSdSeO/uF6lril1Pcrxvl6AC4aqiVjTGeOJRHsF402PnSJlNEzV3CErDphaNkU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQfz27MzSb8qdGuyHSZa0W4TANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADAARQAxADMAQQBOAFMAXABoAGEAbQBpAGQwHhcNMjAxMDE1MDg0NDUxWhcNMjExMDE1MTQ0NDUxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADAARQAxADMAQQBOAFMAXABoAGEAbQBpAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMdJVlE1OFkwBzItK3mJOJz4+g51gNzydGVzr3s8ohjMDoh1I0k0ZAqaWGr2tAf5LAMd6NgY9UMnGKEGPjZDmJAa7ZlN2+JXJiyjt6dmFYxLSbiUnUnjv7hepa4pdT3K8b5egAuGqolY0xnjiUR7BeNNj50iZTRM1dwhKw6YWjZFAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAnyU2epgt2B7y/F9gwVB7bKfX+Ngcs9FeAPvcoBHYFfIgEcGSgooLx9EmS+gUNb7ppFIE3AhCthLBDCWpAS/w/f+6AC7JgHjIGHaqJ2UIuwHyRJI3I0T+pjs3gebWDNmmCrhse+lNjzjPcGsMQi+exdWuTdeDVICOyICCIBbZCEo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
